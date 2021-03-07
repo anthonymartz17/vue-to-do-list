@@ -11,19 +11,21 @@
 
 <script>
 import inputbox from './components/inputBox'
-import tasks from './components/tasks'
+
+
 
 export default {
   
   components:{
     'app-searchBox': inputbox,
-    'app-tasks': tasks
+    
   },
   data () {
     return {
       
     }
   }
+  
   
 }
 </script>
@@ -34,7 +36,7 @@ body{
   height: 100vh;
   display: grid;
   place-items: center;
-  background: #290149;
+  background: darkblue;
   
 }
 .container{
